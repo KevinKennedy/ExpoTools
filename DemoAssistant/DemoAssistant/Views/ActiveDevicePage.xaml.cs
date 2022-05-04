@@ -192,6 +192,11 @@ namespace DemoAssistant.Views
             await this.LaunchApp(AppPackageSetting.ExperienceApp);
         }
 
+        private async void LaunchMixedRealityCaptureClick(object sender, EventArgs args)
+        {
+            await Task.Delay(0); // placeholder
+        }
+
         private async void ScreenShotClick(object sender, EventArgs args)
         {
             var image = await this.activeDevice.TakeScreenshotAsync();

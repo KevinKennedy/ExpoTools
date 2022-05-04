@@ -9,7 +9,7 @@
             >
 
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Settings &#x2699;" Clicked="SettingsClicked" Order="Secondary" />
+        <ToolbarItem Text="Settings ⚙️" Clicked="SettingsClicked" Order="Secondary" />
         <ToolbarItem Text="Log 🌲" Clicked="LogClicked" Order="Secondary" />
     </TabbedPage.ToolbarItems>
 
