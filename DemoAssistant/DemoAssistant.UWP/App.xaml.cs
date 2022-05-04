@@ -20,7 +20,7 @@ namespace DemoAssistant.UWP
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
-    sealed partial class App : Application
+    sealed partial class App : Windows.UI.Xaml.Application
     {
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -30,6 +30,8 @@ namespace DemoAssistant.UWP
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            Xamarin.Forms.DependencyService.Register<DeviceListStorage>();
         }
 
         /// <summary>
@@ -51,7 +53,7 @@ namespace DemoAssistant.UWP
                 rootFrame = new Frame();
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
-
+                Xamarin.Forms.Forms.SetFlags("StateTriggers_Experimental");
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)

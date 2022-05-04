@@ -85,18 +85,21 @@ namespace ExpoHelpers
                 this.LogMessage(false, "Starting heartbeat");
                 // we have active devices but no heartbeat so start it
                 this.heartbeatActive = true;
-                Device.StartTimer(TimeSpan.FromSeconds(5.0), () =>
+                Device.BeginInvokeOnMainThread(() => 
                 {
-                    //this.LogMessage(false, "Heartbeat");
-
-                    if (!this.inHeartbeat)
+                    Device.StartTimer(TimeSpan.FromSeconds(5.0), () =>
                     {
-                        this.inHeartbeat = true;
-                        this.HeartbeatTimerTick();
-                        this.inHeartbeat = false;
-                    }
+                        //this.LogMessage(false, "Heartbeat");
 
-                    return this.heartbeatActive;
+                        if (!this.inHeartbeat)
+                        {
+                            this.inHeartbeat = true;
+                            this.HeartbeatTimerTick();
+                            this.inHeartbeat = false;
+                        }
+
+                        return this.heartbeatActive;
+                    });
                 });
             }
             else if (this.activeDevices.Count == 0 && this.heartbeatActive)

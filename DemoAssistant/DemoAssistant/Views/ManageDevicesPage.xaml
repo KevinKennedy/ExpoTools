@@ -6,7 +6,12 @@
              mc:Ignorable="d"
              x:Class="DemoAssistant.Views.ManageDevicesPage"
              x:Name="ThisPage"
+             Title="Manage Devices"
              >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Done" Clicked="DoneClicked"  />
+    </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
         <Grid>

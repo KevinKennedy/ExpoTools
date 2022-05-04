@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<ArrayOfConnectionInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ConnectionInformation><Address>fake1</Address><Name>Fake 1</Name><Id>F1</Id></ConnectionInformation>
+  <ConnectionInformation><Address>fake2</Address><Name>Fake 2</Name><Id>F2</Id></ConnectionInformation>
+  <!--  <ConnectionInformation><Address>10.4.20.34</Address><Name>Wired Device 14</Name><Id>14</Id></ConnectionInformation> -->
+  <ConnectionInformation><Address>192.168.1.44</Address><Name>Red</Name><Id>R</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.89.206.33</Address><Name>Red2</Name><Id>R2</Id></ConnectionInformation>
+  <ConnectionInformation><Address>fake3</Address><Name>Fake 3</Name><Id>F3</Id></ConnectionInformation>
+  <ConnectionInformation><Address>fake4</Address><Name>Fake 4</Name><Id>F4</Id></ConnectionInformation>
+<!--  <ConnectionInformation><Address>10.4.20.7</Address><Name>Device 7</Name><Id>7</Id></ConnectionInformation> -->
+  
+  <!--
+  <ConnectionInformation><Address>10.4.10.1</Address><Name>Device 1</Name><Id>1</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.2</Address><Name>Device 2</Name><Id>2</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.3</Address><Name>Device 3</Name><Id>3</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.4</Address><Name>Device 4</Name><Id>4</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.5</Address><Name>Device 5</Name><Id>5</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.6</Address><Name>Device 6</Name><Id>6</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.7</Address><Name>Device 7</Name><Id>7</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.8</Address><Name>Device 8</Name><Id>8</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.9</Address><Name>Device 9</Name><Id>9</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.10</Address><Name>Device 10</Name><Id>10</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.11</Address><Name>Device 11</Name><Id>11</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.12</Address><Name>Device 12</Name><Id>12</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.13</Address><Name>Device 13</Name><Id>13</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.14</Address><Name>Device 14</Name><Id>14</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.15</Address><Name>Device 15</Name><Id>15</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.16</Address><Name>Device 16</Name><Id>16</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.17</Address><Name>Device 17</Name><Id>17</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.18</Address><Name>Device 18</Name><Id>18</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.19</Address><Name>Device 19</Name><Id>19</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.20</Address><Name>Device 20</Name><Id>20</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.21</Address><Name>Device 21</Name><Id>21</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.22</Address><Name>Device 22</Name><Id>22</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.23</Address><Name>Device 23</Name><Id>23</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.24</Address><Name>Device 24</Name><Id>24</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.25</Address><Name>Device 25</Name><Id>25</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.26</Address><Name>Device 26</Name><Id>26</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.27</Address><Name>Device 27</Name><Id>27</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.28</Address><Name>Device 28</Name><Id>28</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.29</Address><Name>Device 29</Name><Id>29</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.30</Address><Name>Device 30</Name><Id>30</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.31</Address><Name>Device 31</Name><Id>31</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.32</Address><Name>Device 32</Name><Id>32</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.33</Address><Name>Device 33</Name><Id>33</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.34</Address><Name>Device 34</Name><Id>34</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.35</Address><Name>Device 35</Name><Id>35</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.36</Address><Name>Device 36</Name><Id>36</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.37</Address><Name>Device 37</Name><Id>37</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.38</Address><Name>Device 38</Name><Id>38</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.39</Address><Name>Device 39</Name><Id>39</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.40</Address><Name>Device 40</Name><Id>40</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.41</Address><Name>Device 41</Name><Id>41</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.42</Address><Name>Device 42</Name><Id>42</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.43</Address><Name>Device 43</Name><Id>43</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.44</Address><Name>Device 44</Name><Id>44</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.45</Address><Name>Device 45</Name><Id>45</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.46</Address><Name>Device 46</Name><Id>46</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.47</Address><Name>Device 47</Name><Id>47</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.48</Address><Name>Device 48</Name><Id>48</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.49</Address><Name>Device 49</Name><Id>49</Id></ConnectionInformation>
+  <ConnectionInformation><Address>10.4.10.50</Address><Name>Device 50</Name><Id>50</Id></ConnectionInformation>
+  -->
+</ArrayOfConnectionInformation>

@@ -11,7 +11,7 @@
     <AssemblyName>DemoAssistant.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -92,6 +92,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DeviceListStorage.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -103,6 +104,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Test Devices.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LargeTile.scale-100.png" />
     <Content Include="Assets\LargeTile.scale-200.png" />
@@ -150,6 +152,10 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\ExpoHelpers\ExpoHelpers.csproj">
+      <Project>{4bdde213-0f51-4bf4-83fb-3c279fc46eb7}</Project>
+      <Name>ExpoHelpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DemoAssistant\DemoAssistant.csproj">
       <Project>{14071AB6-24A6-4C82-9F4A-E3D80169F3A2}</Project>
       <Name>DemoAssistant</Name>

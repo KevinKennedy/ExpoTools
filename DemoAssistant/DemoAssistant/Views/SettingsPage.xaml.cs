@@ -137,7 +137,9 @@ namespace DemoAssistant.Views
         {
             var page = new ManageDevicesPage(this.allDevices);
             page.Disappearing += ManageDevicesPageDisappearing;
-            await Navigation.PushModalAsync(new NavigationPage(page));
+            var navigationPage = new NavigationPage(page);
+            NavigationPage.SetHasBackButton(navigationPage, true);
+            await Navigation.PushModalAsync(navigationPage);
         }
 
         private void ManageDevicesPageDisappearing(object sender, EventArgs e)

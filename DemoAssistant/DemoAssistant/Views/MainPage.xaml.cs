@@ -28,7 +28,9 @@ namespace DemoAssistant.Views
 
         public async void LogClicked(object sender, EventArgs args)
         {
-            await Navigation.PushModalAsync(new NavigationPage(new LogView()));
+            var navigationPage = new NavigationPage(new LogView());
+            NavigationPage.SetHasBackButton(navigationPage, true);
+            await Navigation.PushModalAsync(navigationPage);
         }
     }
 }

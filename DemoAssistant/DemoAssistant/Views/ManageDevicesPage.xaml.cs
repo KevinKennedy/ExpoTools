@@ -23,8 +23,6 @@ namespace DemoAssistant.Views
 
         public ManageDevicesPage(ObservableCollection<DeviceInformation> devices)
         {
-            // Work on a deep copy of the deviceList so cancel will undo all changes to
-            // the list and the devices it contains
             this.Devices = devices;
 
             this.MoveUpCommand = new Command((param) =>
@@ -123,5 +121,11 @@ namespace DemoAssistant.Views
                 log.LogMessage(false, "No QR code read");
             }
         }
+
+        public async void DoneClicked(object sender, EventArgs args)
+        {
+            await Navigation.PopModalAsync();
+        }
+
     }
 }
